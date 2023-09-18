@@ -21,22 +21,24 @@ const Banner = () => {
           variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7 }} className='text-[40px] font-bold leading-[0.8] lg:text-[80px]'>CARLOS <span>MARTINEZ</span>
           </motion.h1>
           <motion.div variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7 }} className='mb-6 text-[32px] lg:text-[40px] font-secondary font-semibold uppercase leading-[1]'> 
-            <span className='text-whitle mr-4'>I am a </span>
+            <span className='text-whitle mr-4'>yo soy </span>
             <TypeAnimation sequence={[
-              'Developer',
+              '< desarrollador',
               2000,
-              'Designer',
+              'Front end >',
               2000,
              ]}  speed={50} className='text-accent' wrapper='span' repeat={Infinity}/>
           </motion.div>
           <motion.p variants={fadeIn('up', 0.5)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7 }} className='mb-8 max-w-lg mx-auto lg:mx-0'>
-             Desarrollador Web Frontend conexperiencia en proyectos Scrum, apasionado por concebir experiencias visuales y funcionales atractivas. 
-             Me enorgullece unir habilidades técnicas y creativas para idear soluciones innovadoras y de alto rendimiento. 
-             Mi compromiso con el trabajo en equipo se refleja en mi capacidad para colaborar eficazmente en entornos ágiles y sacar lo mejor de cada proyecto.
+          ¡Bienvenido a mi portafolio, donde mi pasión por la excelencia se encuentra con mi experiencia probada! Aquí, 
+            te invito a explorar una colección diversa de proyectos que ilustran mi habilidad para llevar ideas a la vida a través del diseño creativo, 
+            la innovación tecnológica y la atención al detalle. Cada trabajo representa un logro en mi carrera, 
+            desde proyectos gráficos que cautivan hasta soluciones digitales que marcan la diferencia. Estoy listo para llevar mis talentos y compromiso a tu equipo. 
+            ¿Estás listo para unirte a mí en la creación de un futuro visualmente impactante?
           </motion.p>
           <motion.div variants={fadeIn('up', 0.6)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7 }} className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
             <button className='btn btn-lg'>Contactame</button>
-            <a href='#' className='text-gradient btn-ink'>My portafolio</a>
+            <a href='#' className='text-gradient btn-ink'>Mi portafolio</a>
             </motion.div>
             <motion.div variants={fadeIn('up', 0.7)} initial="hidden" whileInView={'show'}   className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
               <a href='#'>

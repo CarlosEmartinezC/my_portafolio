@@ -8,17 +8,13 @@ import Img3 from '../assets/portfolio-img3.png';
 const Work = () => {
   return (
   <section className='section' id='work'>
-    <div className='container mx audio'>
+    <div className='container mx-auto'>
       <div className='flex flex-col lg:flex-row gap-x-10'>
         <motion.div variants={fadeIn('right', 0.3)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.3 }} className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
           {/* text */}
           <div>
             <h2 className='h2 leading-light text-accent'> My latest <br/> Work.</h2>
-            <p className='max-w-sm mb-16'>¡Bienvenido a mi portafolio, donde mi pasión por la excelencia se encuentra con mi experiencia probada! Aquí, 
-            te invito a explorar una colección diversa de proyectos que ilustran mi habilidad para llevar ideas a la vida a través del diseño creativo, 
-            la innovación tecnológica y la atención al detalle. Cada trabajo representa un logro en mi carrera, 
-            desde proyectos gráficos que cautivan hasta soluciones digitales que marcan la diferencia. Estoy listo para llevar mis talentos y compromiso a tu equipo. 
-            ¿Estás listo para unirte a mí en la creación de un futuro visualmente impactante?</p>
+            <p className='max-w-sm mb-16'> sdasd</p>
             <button className='btn btn-sm'>View all projects</button>
           </div>
           {/*image*/}
