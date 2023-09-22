@@ -1,5 +1,4 @@
 import React from 'react';
-import { BsArrowUpRight } from 'react-icons/bs';
 import {  motion  } from 'framer-motion';
 import  { fadeIn  } from '../variants';
 import {Link} from 'react-scroll';
@@ -44,12 +43,6 @@ const Services = () => {
                 <div className='max-w-[476px]'>
                 <h4 className='text-[20px] tracking.wider font-primary font-semibold mb-3'>{name}</h4>
                 <p className='font-secondary leading-tight'>{description}</p>  
-                </div>
-                <div className='flex flex-col flex-1 items-end'>
-                  <a href='#' className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
-                    <BsArrowUpRight/>
-                  </a>
-                  <a href='#' className='text-gradient text-sm'>{link}</a>
                 </div>
                 </div>
               );
