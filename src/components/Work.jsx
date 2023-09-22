@@ -13,8 +13,8 @@ const Work = () => {
         <motion.div variants={fadeIn('right', 0.3)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.3 }} className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
           {/* text */}
           <div>
-            <h2 className='h2 leading-light text-accent'> My latest <br/> Work.</h2>
-            <p className='max-w-sm mb-16'> sdasd</p>
+            <h2 className='h2 leading-light text-accent'> Mis proyectos y <br/> Trabajos.</h2>
+            <p className='max-w-sm mb-16'> A lo largo de mi carrera, he trabajado en diversos proyectos utilizando React, HTML5, CSS3 y JavaScript para crear experiencias web innovadoras y funcionales. Estos proyectos demuestran mi experiencia en el desarrollo web y mi enfoque en la creación de soluciones efectivas y atractivas.</p>
             <button className='btn btn-sm'>View all projects</button>
           </div>
           {/*image*/}

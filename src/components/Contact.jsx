@@ -1,7 +1,5 @@
 import React, { useRef, useState } from 'react';
-// motion
 import { motion } from 'framer-motion';
-// variants
 import { fadeIn } from '../variants';
 import emailjs from '@emailjs/browser';
 

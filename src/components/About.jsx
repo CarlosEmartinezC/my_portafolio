@@ -3,6 +3,7 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import {motion } from 'framer-motion'; 
 import {fadeIn} from '../variants';
+import {Link} from 'react-scroll';
 
 const About = () => {
     const [ref, inView] = useInView({
@@ -30,7 +31,7 @@ const About = () => {
                 {inView ? <CountUp start={0} end={5} duration={3} /> : null}
               </div>
               <div className='font-primary text-sm trackling-[2px]'>
-                Mount of <br/> Experiencia
+                Meses de <br/> Experiencia
               </div>
             </div>
             <div>
@@ -51,9 +52,9 @@ const About = () => {
             </div>
           </div>
           <div className='flex gap-x-8 items-center'>
-            <button className='btn btn-lg'>Contactame</button>
-            <a href='#' className='text-gradient btn-link'>
-              My portafolio
+          <button className='btn btn-lg'><Link to='contact' activeClass='active' smooth={true} spy={true}>Contactame</Link></button>
+            <a href='https://drive.google.com/file/d/1khQ6q3hf1vyFNixM4rYbbULpSh7uhCOZ/view?usp=sharing' className='text-gradient btn-link'>
+            Visualizar CV
             </a>
           </div>
         </motion.div>

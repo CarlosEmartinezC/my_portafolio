@@ -1,15 +1,10 @@
 import React from 'react';
-//images
 import Image from '../assets/avatar.svg';
-//icons
 import  { FaGithub, FaChessRook, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
-//type animation
 import {  motion  } from 'framer-motion';
-//variants
 import  { fadeIn  } from '../variants';
 import { TypeAnimation } from 'react-type-animation';
-
-
+import {Link} from 'react-scroll';
 const Banner = () => {
   return (
   <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
@@ -37,8 +32,7 @@ const Banner = () => {
             ¿Estás listo para unirte a mí en la creación de un futuro visualmente impactante?
           </motion.p>
           <motion.div variants={fadeIn('up', 0.6)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7 }} className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-            <button className='btn btn-lg'>Contactame</button>
-            <a href='#' className='text-gradient btn-ink'>Mi portafolio</a>
+            <button className='btn btn-lg'><Link to='contact' activeClass='active' smooth={true} spy={true}>Contactame</Link></button>
             </motion.div>
             <motion.div variants={fadeIn('up', 0.7)} initial="hidden" whileInView={'show'}   className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
               <a href='https://github.com/CarlosEmartinezC'>
@@ -55,7 +49,6 @@ const Banner = () => {
               </a>
             </motion.div>
         </div>
-        {/*image*/}
         <motion.div variants={fadeIn('down', 0.3)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7 }} className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'>
           <img src={Image} alt=''/>
         </motion.div>
