@@ -2,7 +2,7 @@ import React from 'react';
 //images
 import Image from '../assets/avatar.svg';
 //icons
-import  { FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa';
+import  { FaGithub, FaChessRook, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 //type animation
 import {  motion  } from 'framer-motion';
 //variants
@@ -41,15 +41,18 @@ const Banner = () => {
             <a href='#' className='text-gradient btn-ink'>Mi portafolio</a>
             </motion.div>
             <motion.div variants={fadeIn('up', 0.7)} initial="hidden" whileInView={'show'}   className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a href='#'>
+              <a href='https://github.com/CarlosEmartinezC'>
                 <FaGithub/>
               </a>
-              <a href='#'>
-                <FaDribbble/>
+              <a href='https://www.linkedin.com/in/carlose-martinez-c'>
+                <FaLinkedin/>
               </a>
-              <a href='#'>
-                  <FaYoutube/>
+              <a href='https://torre.ai/s/IRL1mlLrHF'>
+                  <FaChessRook/>
                   </a>
+              <a href='https://wa.me/+573045454461'>
+                <FaWhatsapp/>
+              </a>
             </motion.div>
         </div>
         {/*image*/}
