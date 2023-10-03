@@ -39,10 +39,10 @@ const Services = () => {
             {services.map((service, index) => {
               const{name, description, link} = service;
                return (
-              <div className='border-b border-white/20 h-[146px] mb-[38px] flex' key={index}>
+              <div className='border-b border-white/20 h-[146px] mb-[38px] flex ' key={index}>
                 <div className='max-w-[500px]'>
-                <h4 className='text-[20px] tracking.wider font-primary font-semibold mb-2'>{name}</h4>
-                <p className='font-secondary leading-tight mb-3'>{description}</p>  
+                <h4 className='text-[18px] tracking.wider font-primary font-semibold mb-2'>{name}</h4>
+                <p className='text-[16px] font-secondary leading-tight mb-4'>{description}</p>  
                 </div>
                 </div>
               );
