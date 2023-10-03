@@ -13,9 +13,9 @@ const Banner = () => {
         {/*text*/}
         <div className='flex-1 text-center font-secondary lg:text-left'>
           <motion.h1 
-          variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7 }} className='text-[40px] font-bold leading-[0.8] lg:text-[80px]'>CARLOS <span>MARTINEZ</span>
+          variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7 }} className='text-[24px] font-bold leading-[0.8] lg:text-[80px]'>CARLOS <span>MARTINEZ</span>
           </motion.h1>
-          <motion.div variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7 }} className='mb-6 text-[32px] lg:text-[40px] font-secondary font-semibold uppercase leading-[1]'> 
+          <motion.div variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7 }} className='mb-6 text-[18px] lg:text-[40px] font-secondary font-semibold uppercase leading-[1]'> 
             <span className='text-whitle mr-4'>yo soy </span>
             <TypeAnimation sequence={[
               '< desarrollador',
@@ -24,7 +24,7 @@ const Banner = () => {
               2000,
              ]}  speed={50} className='text-accent' wrapper='span' repeat={Infinity}/>
           </motion.div>
-          <motion.p variants={fadeIn('up', 0.5)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7 }} className='mb-8 max-w-lg mx-auto lg:mx-0'>
+          <motion.p variants={fadeIn('up', 0.5)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7 }} className='mb-8 text-[16px] max-w-lg mx-auto lg:mx-0'>
           ¡Bienvenido a mi portafolio, donde mi pasión por la excelencia se encuentra con mi experiencia probada! Aquí, 
             te invito a explorar una colección diversa de proyectos que ilustran mi habilidad para llevar ideas a la vida a través del diseño creativo, 
             la innovación tecnológica y la atención al detalle. Cada trabajo representa un logro en mi carrera, 

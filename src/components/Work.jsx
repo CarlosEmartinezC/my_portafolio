@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants';
 import Img1 from '../assets/Profes.png';
