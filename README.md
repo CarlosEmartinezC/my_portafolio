@@ -1,5 +1,6 @@
 # Portafolio 
-[![portafolio](https://i.ibb.co/CzkvGz8/Captura-de-pantalla-2023-09-14-223700.png "portafolio")](https://ibb.co/1LDKWLQ "portafolio")
+![image](https://github.com/CarlosEmartinezC/my_portafolio/assets/133069933/ad2d79a7-1c00-4039-89c9-58a13c6ffe7d)
+
 
 
 ## Despliegue:
